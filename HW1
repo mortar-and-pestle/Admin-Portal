@@ -1,0 +1,21 @@
+Assignment #1:
+
+isaac/isaacdejesus
+
+#1) Is the waterfall model a good choice for dev this system? 
+    No, it would be a bad idea to implement the waterfall model to this 
+    project since it is not a very flexible model. Requirements might not be
+    very clear at the beggining of the project and the client might
+    change his mind at any time. Waterfall does not allow for requirements 
+    to change once the project has started. <-- needs fixing, add more.
+
+#2) Is iterative dev leading to a single release of the system a good choice
+    for dev this system?
+    Not sure? Is this the same as incremental? 
+
+#3) Is agile dev with releases of small increments of software a good choice for
+    dev this system?
+    Yes, because it is adaptive and allows for requirements to change. 
+
+#4) Discuss first thoughts on how you will approach the sol?
+    Framework? No framework? What do you think? 
