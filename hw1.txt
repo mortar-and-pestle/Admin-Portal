@@ -4,14 +4,20 @@ isaac/isaacdejesus
 
 #1) Is the waterfall model a good choice for dev this system? 
     No, it would be a bad idea to implement the waterfall model to this 
-    project since it is not a very flexible model. Requirements might not be
+    project since waterfall is not a very flexible model. Requirements might not be
     very clear at the beggining of the project and the client might
     change his mind at any time. Waterfall does not allow for requirements 
-    to change once the project has started. <-- needs fixing, add more.
+    to change once the project has started which means if the requirements of
+    the assignment/project change there will be the need to start from scratch
+    again.
 
 #2) Is iterative dev leading to a single release of the system a good choice
     for dev this system?
-    Not sure? Is this the same as incremental? 
+    Yes, iterative development is a good choice for the given project since it does 
+    allow for changes to be made while the project is already in development.
+    Iterative would allow us to work on small functionalities of the project at every
+    step of the way, thereby making it easier to view/measure progress. As a result, 
+    iterative is a very attractive model for the given project.
 
 #3) Is agile dev with releases of small increments of software a good choice for
     dev this system?
