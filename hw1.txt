@@ -1,27 +1,44 @@
-Assignment #1:
+                              Assignment 1
 
-isaac/isaacdejesus
+Isaac/isaacdejesus
+Chase Bowman - mortar-and-pestle
+Project: https://github.com/mortar-and-pestle/Admin-Portal
 
-#1) Is the waterfall model a good choice for dev this system? 
-    No, it would be a bad idea to implement the waterfall model to this 
+#1) Is the waterfall model a good choice for dev this system?
+
+    No, it would be a bad idea to implement the waterfall model to this
     project since waterfall is not a very flexible model. Requirements might not be
     very clear at the beggining of the project and the client might
-    change his mind at any time. Waterfall does not allow for requirements 
+    change his mind at any time. Waterfall does not allow for requirements
     to change once the project has started which means if the requirements of
     the assignment/project change there will be the need to start from scratch
     again.
 
 #2) Is iterative dev leading to a single release of the system a good choice
     for dev this system?
-    Yes, iterative development is a good choice for the given project since it does 
+
+    Yes, iterative development is a good choice for the given project since it does
     allow for changes to be made while the project is already in development.
     Iterative would allow us to work on small functionalities of the project at every
-    step of the way, thereby making it easier to view/measure progress. As a result, 
+    step of the way, thereby making it easier to view/measure progress. As a result,
     iterative is a very attractive model for the given project.
 
 #3) Is agile dev with releases of small increments of software a good choice for
     dev this system?
-    Yes, because it is adaptive and allows for requirements to change. 
 
-#4) Discuss first thoughts on how you will approach the sol?
-    Framework? No framework? What do you think? 
+    Since the only deliverable, agile development doesn't make much sense. There
+    isn't really a customer to push incremental updates out to for them to use
+    and test. There is no customer to receive feedback from. However, as developers,
+    we can provide feedback ourselves which makes general iterative and incremental
+    development the optimal choice.
+
+#4) Discuss first thoughts on how you will approach the solution?
+
+    Preliminary research into necessary technologies will be done taking into
+    consideration the project's requirements. For example, if a database is
+    needed, then a suitable DBMS/library will be chosen. Our team might not
+    have budget constraints but we do have time constraints. The choice of
+    technology will depend on the how fast it takes us to get up to speed with
+    it and how popular the technology is. In addition, a task and
+    architectural diagram will be much help when implementation begins.
+    Tasks and goals will generally be split between my partner and I.
