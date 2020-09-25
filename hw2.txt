@@ -1,0 +1,25 @@
+Assignment 2
+isaacdejesus/isaac
+
+Functional requirements:
+
+-   The admin portal will only be accessible to employees logged into the 
+    company network who have an "ADMIN" role.
+
+-   Authenticated "ADMIN" will only have access to links based on his role. 
+    Links not related to his role will not be visible. Ex. Support "ADMIN" 
+    will not have access to finance "ADMIN" links.
+
+-   App will be strictly a redirection sevice. It will redirect users with 
+    "ADMIN" privileges to the admin portal and then provide links to the
+    appropiate admin application based on their "ADMIN" role.
+
+-   The following five caterogies of applications and five admin roles must
+    match in order to redirect "ADMIN" to the appropiate links:
+    Support: ADMIN
+    Finance: FINANCE_ADMIN
+    Sales  : SALES_ADMIN
+    HR     : HR_ADMIN
+    Technology: TECH_ADMIN 
+
+
