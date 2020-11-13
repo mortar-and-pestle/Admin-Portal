@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for admin in admins %}
+    <h1>{{ admin.admin }}</h1>
+    {% endfor %}
+{% endblock content%}
+

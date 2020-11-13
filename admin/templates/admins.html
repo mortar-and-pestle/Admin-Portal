@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1> Please select admin type</h1>
+    <form method= "POST" action="">
+        {{form.hidden_tag()}}
+        {{form.adminType.label}}
+
+        {{form.adminType}}
+        {{form.submit}}
+    </form>
+{% endblock content %}
