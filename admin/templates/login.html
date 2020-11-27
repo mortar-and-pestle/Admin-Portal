@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1> Please select login</h1>
+    <form method= "POST" action="">
+        {{form.hidden_tag()}}
+        {{form.username.label}}
+        {{form.username}}
+
+        {{form.password.label}}
+        {{form.password}}
+
+        {{form.remember}}
+        {{form.remember.label}}
+
+        {{form.submit}}
+    </form>
+{% endblock content %}
