@@ -1,5 +1,82 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>Links will be displayed here? </h1>
+  <<div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% if user.type == "ADMIN" %}
+        <tr>
+          <td><a href="https://www.google.com/">Manage User Accounts</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.google.com/">Assign Roles</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.google.com/">Help Desk</td>
+        </tr>
 
+        {% elif user.type == "FINANCE_ADMIN" %}
+          <tr>
+            <td><a href="https://www.google.com/">Finance Reports</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Accounts Payable</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Accounts Receivable</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Tax</td>
+          </tr>
+
+        {% elif user.type == "SALES_ADMIN" %}
+          <tr>
+            <td><a href="https://www.google.com/">Sales Report</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Sales Leads</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Sales Demo</td>
+          </tr>
+
+        {% elif user.type == "HR_ADMIN" %}
+          <tr>
+            <td><a href="https://www.google.com/">New Hire On-boarding</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Benefits</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Payroll</td>
+          </tr>
+            <td><a href="https://www.google.com/">Off-boarding</td>
+          <tr>
+            <td><a href="https://www.google.com/">HR Reports</td>
+          </tr>
+
+        {% elif user.type == "TECH_ADMIN" %}
+          <tr>
+            <td><a href="https://www.google.com/">Application Monitoring</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Tech Support</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">App Development</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">App Admin</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.com/">Release Management</td>
+          </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
 {% endblock content %}
